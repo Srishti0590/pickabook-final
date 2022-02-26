@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9ea97b5-57b3-46f3-b9b4-b179364e6f44" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/password_change.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/password_change.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer-admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer-admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header-admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header-admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout-admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout-admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/messages.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/messages.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
