@@ -5,7 +5,6 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('', include('pickabook.urls')),
     path('accounts/', include('accounts.urls')),
-    path('accounts/', include('allauth.urls')),
     path('pickabook/', include('pickabook.urls')),
     path('admins/', include('admins.urls')),
     path('pickabook/', include('frontend.urls')),
