@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9ea97b5-57b3-46f3-b9b4-b179364e6f44" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/frontend/templates/frontend/show_quotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/templates/frontend/show_quotes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/password_reset_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/password_reset_confirm.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
