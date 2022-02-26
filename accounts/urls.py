@@ -4,10 +4,10 @@ from django.contrib.auth import views as auth_views
 
 urlpatterns = [
     # path('', views.homepage),
-    path('login', views.login),
+    path('login', views.login, name='login'),
     path('register', views.register_user),
     path('logout', views.logout_user),
-    path('profile', views.profile),
+    path('profile', views.profile, name='profile'),
 
 
     path('password_change', auth_views.PasswordChangeView.as_view(
@@ -15,12 +15,11 @@ urlpatterns = [
     path('password_change_done', auth_views.PasswordChangeView.as_view(
         template_name='accounts/password_change_done.html'), name='password_change_done'),
 
-    path('password_change_user', views.password_change_user),
+    path('password_change_user', views.password_change_user, name='change'),
 
 
 
 #forgot password urls
-
     path('password_reset/', auth_views.PasswordResetView.as_view(template_name='accounts/password_reset_form.html'),
          name='password_reset'),
     path('password_reset/done/',
@@ -31,6 +30,8 @@ urlpatterns = [
          name='password_reset_confirm'),
     path('reset/done/', auth_views.PasswordResetCompleteView.as_view(template_name='accounts/password_reset_complete.html'),
          name='password_reset_complete'),
+
+    path('contactus', views.contactus),
 
 
 ]

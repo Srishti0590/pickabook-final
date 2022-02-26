@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9ea97b5-57b3-46f3-b9b4-b179364e6f44" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pickabook/templates/pickabook/Quote_Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/pickabook/templates/pickabook/Quote_Form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickabook/templates/pickabook/category_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/pickabook/templates/pickabook/category_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickabook/templates/pickabook/get_books.html" beforeDir="false" afterPath="$PROJECT_DIR$/pickabook/templates/pickabook/get_books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickabook/templates/pickabook/get_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/pickabook/templates/pickabook/get_category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickabook/templates/pickabook/get_news.html" beforeDir="false" afterPath="$PROJECT_DIR$/pickabook/templates/pickabook/get_news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickabook/templates/pickabook/get_quotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/pickabook/templates/pickabook/get_quotes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickabook/templates/pickabook/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/pickabook/templates/pickabook/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickabook/templates/pickabook/news_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/pickabook/templates/pickabook/news_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickabook/templates/pickabook/update_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/pickabook/templates/pickabook/update_category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pickabook/templates/pickabook/update_quotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/pickabook/templates/pickabook/update_quotes.html" afterDir="false" />
-    </list>
+    <list default="true" id="e9ea97b5-57b3-46f3-b9b4-b179364e6f44" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
