@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block title %}
+<title>Notifications</title>
+{% endblock title %}
+
+{% block main_content %}
+<section id="notification-section">
+
+    <div class="container notification-container mt-5 py-5">
+        <div class="title text-center">
+            <h4 class="fs-1 pt-2 pb-5"><span>Notifications</span></h4>
+        </div>
+
+        <div class="row">
+            {% for i in notifications %}
+            <div class="col-md-4">
+                <div class="card shadow px-4" style="width: 22rem; background-color: #fff;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-3 fw-bold">"{{i.notification_title}}"</h5>
+                      <h6 class="card-subtitle fw-bold mb-2 text-muted">"{{i.notification_description}}"</h6>
+                      <p class="card-text" style="font-size: 17px;">"{{i.created_date}}"</p>
+
+                    </div>
+                  </div>
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock main_content %}
+

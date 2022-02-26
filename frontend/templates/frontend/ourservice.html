@@ -1,0 +1,144 @@
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100vh;
+    position: relative;
+    color: white;
+    Background:url(/static/images/background2.jpg)
+}
+.container{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.container h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container .services{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container .services .card{
+    width: 330px;
+    text-align: center;
+    background: #222;
+    padding: 20px 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.container .services .card:hover{
+    background: chocolate;
+}
+.container .services .card.content{
+    transition: 0.3s;
+
+}
+.container .services .card:hover.content{
+    transform: scale(1.07);
+}
+.container .services .card .content .icon{
+    padding: 5px 0;
+    color: white;
+
+}
+.container .services .card .content .icon i{
+    font-size: 30px;
+}
+.container .services .card:hover .content .title{
+    color: white;
+}
+.container .services .card .content .title{
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: chocolate;
+    transition: 0.3s;
+}
+
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/ourservice.css">
+    <title>Our Services</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Our Services</h2>
+        <section class="services">
+            <div class="card">
+                <div class="content">
+                    <div class="icon"><i class="fa fa-laptop" aria-hidden="true"></i></div>
+                    <div class="title">Buy Books Online</div>
+                    <p>Easily discover new reads and stock your shelves at the comforts of your home through our safe delivery system.
+                         We deliver worldwide and to all districts in Nepal.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="icon"><i class="fa fa-book" aria-hidden="true"></i></div>
+                    <div class="title">Discover new books and people</div>
+                    <p>Follow us at our socials to find book recommendations, discussion and more. We also have a community on Discord where
+                         bibliophiles can come together to talk about and share some of their favorite things: books.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                    <div class="title">Request books</div>
+                    <p>We also consider purchase requests for books that are not available with us. If any book you need is not in our collection, 
+                        fill our book request form out and we’ll try our best to help you get it.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                    <div class="title">Inspirational Content</div>
+                    <p>We believe in co-creation and providing value to our customers so you will find more that just product promotions on our website and socials.
+                         Find beautiful stacks of books, well written blogs, inspirational quotes and take-away points.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></div>
+                    <div class="title">Deals and giveaways</div>
+                    <p>Yes, it’s possible to win free stuff and gift cards at Books Mandala. Find the best bargains through our deals 
+                        and get connected to discover quizzes, giveaways, contests and more!</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="icon"><i class="fa fa-smile-o" aria-hidden="true"></i></div>
+                    <div class="title">Promote your book</div>
+                    <p>If you are an author, promoting and marketing your book is vital to success. We can help promote your book by providing 
+                        the exposure it needs and connect you to hungry readers and book buyers.</p>
+                </div>
+            </div>
+            
+        </section>
+    </div>
+</body>
+</html>
