@@ -4,8 +4,6 @@
     <list default="true" id="e9ea97b5-57b3-46f3-b9b4-b179364e6f44" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebook/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ebook/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebook/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ebook/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
